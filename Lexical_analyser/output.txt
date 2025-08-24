@@ -1,0 +1,291 @@
+#include "header.h" is a preprocessor directive
+int is a keyword
+main is an identifier
+( is a delimiter
+int is a keyword
+argc is an identifier
+, is a delimiter
+char is a keyword
+* is an operator
+* is an operator
+argv is an identifier
+, is a delimiter
+char is a keyword
+* is an operator
+* is an operator
+envp is an identifier
+) is a delimiter
+{ is a delimiter
+FILE is an identifier
+* is an operator
+fp is an identifier
+, is a delimiter
+* is an operator
+fc is an identifier
+; is a delimiter
+char is a keyword
+str is an identifier
+[ is a delimiter
+1000 is an integer
+] is a delimiter
+; is a delimiter
+Tokens is an identifier
+statistics is an identifier
+= is an operator
+{ is a delimiter
+0 is an integer
+} is a delimiter
+; is a delimiter
+//Initialise every keyword, identifiers, operators ..... count to zero!! is a single line comment
+fp is an identifier
+= is an operator
+fopen is an identifier
+( is a delimiter
+argv is an identifier
+[ is a delimiter
+1 is an integer
+] is a delimiter
+, is a delimiter
+"r" is a string literal
+) is a delimiter
+; is a delimiter
+fc is an identifier
+= is an operator
+fopen is an identifier
+( is a delimiter
+"output.txt" is a string literal
+, is a delimiter
+"w" is a string literal
+) is a delimiter
+; is a delimiter
+if is a keyword
+( is a delimiter
+fp is an identifier
+== is an operator
+NULL is an identifier
+|| is an operator
+fc is an identifier
+== is an operator
+NULL is an identifier
+) is a delimiter
+{ is a delimiter
+perror is an identifier
+( is a delimiter
+"Error: " is a string literal
+) is a delimiter
+; is a delimiter
+return is a keyword
+0 is an integer
+; is a delimiter
+} is a delimiter
+// printf("hi\n"); is a single line comment
+while is a keyword
+( is a delimiter
+fgets is an identifier
+( is a delimiter
+str is an identifier
+, is a delimiter
+sizeof is a keyword
+( is a delimiter
+str is an identifier
+) is a delimiter
+, is a delimiter
+fp is an identifier
+) is a delimiter
+) is a delimiter
+{ is a delimiter
+str is an identifier
+[ is a delimiter
+strcspn is an identifier
+( is a delimiter
+str is an identifier
+, is a delimiter
+"\n" is a string literal
+) is a delimiter
+] is a delimiter
+= is an operator
+'\0' is a character literal
+; is a delimiter
+tokenize_line is an identifier
+( is a delimiter
+str is an identifier
+, is a delimiter
+fc is an identifier
+, is a delimiter
+& is an operator
+statistics is an identifier
+) is a delimiter
+; is a delimiter
+// if (feof(fp)) is a single line comment
+// { is a single line comment
+//     break; is a single line comment
+// } is a single line comment
+} is a delimiter
+//Summary is a single line comment
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"\nSummary:\n" is a string literal
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Keywords: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+keyword is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Identifiers: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+identifiers is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Operators: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+operators is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Integers: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+integers is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Real Numbers: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+real_numbers is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"String Literals: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+string_literals is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Delimiters: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+delimiters is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Preprocessor Directives: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+preprocessor is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Hex/Octal Numbers: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+hex_octal is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Character Literals: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+character_literals is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Single line comments: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+single_line is an identifier
+) is a delimiter
+; is a delimiter
+fprintf is an identifier
+( is a delimiter
+fc is an identifier
+, is a delimiter
+"Multi line comments: %d\n" is a string literal
+, is a delimiter
+statistics is an identifier
+. is an operator
+multi_line is an identifier
+) is a delimiter
+; is a delimiter
+fclose is an identifier
+( is a delimiter
+fp is an identifier
+) is a delimiter
+; is a delimiter
+fclose is an identifier
+( is a delimiter
+fc is an identifier
+) is a delimiter
+; is a delimiter
+return is a keyword
+0 is an integer
+; is a delimiter
+} is a delimiter
+
+Summary:
+Keywords: 10
+Identifiers: 85
+Operators: 26
+Integers: 5
+Real Numbers: 0
+String Literals: 18
+Delimiters: 124
+Preprocessor Directives: 1
+Hex/Octal Numbers: 0
+Character Literals: 1
+Single line comments: 7
+Multi line comments: 0
